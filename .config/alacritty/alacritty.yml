@@ -1,0 +1,15 @@
+font:
+  normal:
+    family: "monospace"
+    style: normal
+  size: 14
+
+window:
+  padding:
+    x: 9
+    y: 3
+
+colors:
+  primary:
+    background: "#1f060f"
+    foreground: "#e0dcdd"

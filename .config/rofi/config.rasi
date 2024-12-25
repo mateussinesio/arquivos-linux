@@ -1,0 +1,131 @@
+configuration {
+
+modes: "drun";
+display-drun: "Pesquisar:";
+drun-display-format: "{icon} {name}";
+font: "monospace normal 12";
+
+}
+
+@theme "/dev/null"
+
+* {
+
+border: 0;
+margin: 0;
+padding: 0;
+spacing: 0;
+
+}
+
+/* Barra de rolar */
+scrollbar {
+
+background-color: #421429;
+handle-color: #87AA43;
+handle-width: 12;
+
+}
+
+/* Janela */
+window {
+
+location: center;
+width: 36%;
+height: 80%;
+background-color: #260b18;
+border-radius: 9;
+
+}
+
+/* Barra de pesquisa */
+entry {
+
+text-color: #8e918f;
+background-color: #260b18;
+placeholder: none;
+
+}
+
+/* Itens do menu */
+element {
+
+border-radius: 6;
+background-color: #421429;
+padding: 15;
+
+}
+
+/* Cor dos itens do menu quando estão selecionados */
+element selected {
+
+background-color: #87AA43;
+
+}
+
+/* Cor do texto dos itens do menu quando estão selecionados */
+element-text selected {
+
+text-color: #e0dcdd;
+
+}
+
+/* Texto dos itens do menu */
+element-text {
+
+text-align: center;
+text-color: #8e918f;
+background-color: transparent;
+
+}
+
+/* Ícones dos itens do menu */
+element-icon {
+
+size: 26;
+background-color: transparent;
+
+}
+
+/* Estilo da barra de pesquisa */
+inputbar {
+
+children: [prompt, entry];
+spacing: 3;
+border-radius: 6;
+background-color: #260b18;
+padding: 16;
+
+}
+
+/* "Pesquisar:" */
+prompt {
+
+text-color: #8e918f;
+background-color: #260b18;
+
+}
+
+/* Espaço onde os itens do menu ficam */
+listview {
+
+scrollbar: true;
+border-radius: 9;
+background-color: #260b18;
+padding: 16;
+spacing: 16;
+columns: 1;
+lines: 9;
+
+}
+
+/* Espaço onde tudo é armazenado */
+mainbox {
+
+background-color: #421429;
+margin: 9;
+padding: 3;
+spacing: 9;
+border-radius: 9;
+
+}
