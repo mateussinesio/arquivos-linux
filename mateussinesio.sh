@@ -10,4 +10,9 @@ chmod +x ~/.config/bspwm/bspwmrc
 chmod +x ~/.config/sxhkd/sxhkdrc
 chmod +x ~/.config/polybar/iniciar.sh
 
+sudo apt install -y ufw
+sudo ufw enable
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+
 echo "Sistema configurado com sucesso!"
